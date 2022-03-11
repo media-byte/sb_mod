@@ -48,41 +48,6 @@ done
 # Main
 ################################
 
-# Check for supported Ubuntu Releases
-release=$(lsb_release -cs)
- 
-# Add more releases like (focal|jammy)$
-if [[ $release =~ (focal)$ ]]; then
-    echo "$release is currently supported."
-elif [[ $release =~ (jammy)$ ]]; then
-    read -p "$release is currently in testing. Press enter to continue"
-else
-    echo "$release is currently not supported."
-    exit 1
-fi
-
-# Check if using valid arch
-arch=$(uname -m)
-
-if [[ $arch =~ (x86_64)$ ]]; then
-    echo "$arch is currently supported."
-else
-    echo "$arch is currently not supported."
-    exit 1
-fi
-
-echo "Installing Saltbox Dependencies."
-
-$VERBOSE || exec &>/dev/null
-
-$VERBOSE && echo "Script Path: $SCRIPT_PATH"
-
-# Update apt cache
-run_cmd apt-get update
-
-# Install git
-run_cmd apt-get install -y git
-
 # Remove existing repo folder
 if [ -d "$SB_PATH" ]; then
     run_cmd rm -rf $SB_PATH;
