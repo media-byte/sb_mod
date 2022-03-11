@@ -24,7 +24,7 @@ fi
 # Scripts
 ################################
 
-source /srv/git/sb_mod/yaml.sh
+source /srv/git/sb/yaml.sh
 create_variables /srv/git/saltbox/accounts.yml
 
 ################################
