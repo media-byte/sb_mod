@@ -143,7 +143,7 @@ install () {
 
         # Run playbook
         echo ""
-        echo "Running Saltbox Tags: ${tags_sb//,/,  }"
+        echo "Running Saltbox Mod Tags: ${tags_sb//,/,  }"
         echo ""
         run_playbook_sb "$arguments_sb"
         echo ""
