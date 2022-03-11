@@ -2,7 +2,7 @@
 #########################################################################
 # Title:         Saltbox Mod: SBMOD Script                              #
 # Author(s):     hackmonker                                             #
-# URL:           https://github.com/media-byte/saltbox_mod              #
+# URL:           https://github.com/media-byte/sb_mod                   #
 # --                                                                    #
 #########################################################################
 #                   GNU General Public License v3.0                     #
