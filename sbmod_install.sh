@@ -1,6 +1,6 @@
 #!/bin/bash
 #########################################################################
-# Title:         Saltbox Install Script                                 #
+# Title:         Saltbox Mod Install Script                             #
 # Author(s):     Hackmonker                                             #
 # URL:           https://github.com/media-byte/sb_mod                   #
 # --                                                                    #
