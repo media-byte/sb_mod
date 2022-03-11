@@ -1,8 +1,8 @@
 #!/bin/bash
 #########################################################################
-# Title:         Saltbox Repo Cloner Script                             #
-# Author(s):     desimaniac, salty                                      #
-# URL:           https://github.com/saltyorg/sb                         #
+# Title:         Saltbox Mod Repo Cloner Script                         #
+# Author(s):     hackmonker                                             #
+# URL:           https://github.com/media-byte/sb_mod                   #
 # --                                                                    #
 #########################################################################
 #                   GNU General Public License v3.0                     #
