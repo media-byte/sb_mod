@@ -1,7 +1,7 @@
 #!/bin/bash
 #########################################################################
 # Title:         Saltbox Mod: SBMOD Script                              #
-# Author(s):     hackmonker                                             #
+# Author(s):     hackmonker                                             
 # URL:           https://github.com/media-byte/sb_mod                   #
 # --                                                                    #
 #########################################################################
