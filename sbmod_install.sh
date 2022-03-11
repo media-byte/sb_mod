@@ -113,8 +113,5 @@ if [ "$SCRIPT_PATH" != "$SB_INSTALL_SCRIPT" ]; then
     exit $?
 fi
 
-# Install Saltbox Dependencies
-run_cmd bash -H $SB_PATH/sb_dep.sh $VERBOSE_OPT
-
 # Clone Saltbox Repo
 run_cmd bash -H $SB_PATH/sbmod_repo.sh -b master $VERBOSE_OPT
