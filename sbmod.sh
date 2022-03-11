@@ -1,8 +1,8 @@
 #!/bin/bash
 #########################################################################
-# Title:         Saltbox: SB Script                                     #
-# Author(s):     desimaniac, chazlarson, salty                          #
-# URL:           https://github.com/saltyorg/sb                         #
+# Title:         Saltbox Mod: SBMOD Script                              #
+# Author(s):     hackmonker                                             #
+# URL:           https://github.com/media-byte/saltbox_mod              #
 # --                                                                    #
 #########################################################################
 #                   GNU General Public License v3.0                     #
