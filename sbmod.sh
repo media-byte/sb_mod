@@ -211,8 +211,8 @@ list () {
 
 usage () {
     echo "Usage:"
-    echo "    sbmod update              Update Saltbox."
-    echo "    sbmod list                List Saltbox packages."
+    echo "    sbmod update              Update Saltbox Mod."
+    echo "    sbmod list                List Saltbox Mod packages."
     echo "    sbmod install <package>   Install <package>."
 }
 
